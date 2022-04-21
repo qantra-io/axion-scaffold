@@ -1,0 +1,22 @@
+{
+  "name": "scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-axion-express": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caporal": "^0.3.0",
+    "colors": "^1.1.2",
+    "git-clone": "^0.2.0",
+    "prompt": "^1.0.0",
+    "scaffold": "file:scaffold-1.0.0.tgz",
+    "shelljs": "^0.7.7"
+  }
+}
