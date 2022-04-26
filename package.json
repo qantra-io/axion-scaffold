@@ -1,16 +1,20 @@
 {
-  "name": "scaffold",
+  "name": "axion-scaffold",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "create-axion-express": "./index.js"
+    "create-axion-app": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qantra-io/axion-scaffold"
+  },
   "dependencies": {
     "caporal": "^0.3.0",
     "colors": "^1.1.2",
