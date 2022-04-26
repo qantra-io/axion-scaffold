@@ -3,12 +3,12 @@
 ## Installation
 Using npm:
 ```shell
-$ npm i -g axion-scaffold
+npm i -g axion-scaffold
 ```
 
 ## Usage
 run the following command:
 ```shell
-$ create-axion-app
+create-axion-app
 ```
 
