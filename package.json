@@ -43,7 +43,7 @@
       "tokenRef": "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"
     },
     "npm": {
-      "publish": false
+      "publish": true
     }
   }
 }
