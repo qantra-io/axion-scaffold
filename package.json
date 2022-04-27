@@ -32,9 +32,6 @@
   },
   "release-it": {
     "plugins": {
-      "release-it-lerna-changelog": {
-        "infile": "CHANGELOG.md"
-      }
     },
     "git": {
       "commitMessage": "v${version}",
