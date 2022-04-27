@@ -37,7 +37,7 @@
       "tagName": "v${version}"
     },
     "github": {
-      "release": true,
+      "release": false,
       "releaseName": "v${version}",
       "tokenRef": "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"
     },
