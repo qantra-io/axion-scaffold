@@ -1,13 +1,14 @@
 {
   "name": "axion-scaffold",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "bin": {
     "create-axion-app": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
   },
   "author": "",
   "license": "ISC",
@@ -20,7 +21,29 @@
     "colors": "^1.1.2",
     "git-clone": "^0.2.0",
     "prompt": "^1.0.0",
-    "scaffold": "file:scaffold-1.0.0.tgz",
     "shelljs": "^0.7.7"
+  },
+  "devDependencies": {
+    "release-it": "^14.14.2",
+    "release-it-lerna-changelog": "^4.0.1"
+  },
+  "release-it": {
+    "plugins": {
+      "release-it-lerna-changelog": {
+        "infile": "CHANGELOG.md"
+      }
+    },
+    "git": {
+      "commitMessage": "v${version}",
+      "tagName": "v${version}"
+    },
+    "github": {
+      "release": true,
+      "releaseName": "v${version}",
+      "tokenRef": "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"
+    },
+    "npm": {
+      "publish": false
+    }
   }
 }
