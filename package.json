@@ -16,6 +16,9 @@
     "type": "git",
     "url": "https://github.com/qantra-io/axion-scaffold"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "caporal": "^0.3.0",
     "colors": "^1.1.2",
